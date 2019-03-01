@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExitSubModule.cs" />
     <Compile Include="IModule.cs" />
+    <Compile Include="LdapMain.cs" />
+    <Compile Include="DbMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
