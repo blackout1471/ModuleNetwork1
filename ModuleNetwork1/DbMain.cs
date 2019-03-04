@@ -10,6 +10,7 @@ namespace ModuleNetwork1
     {
         IModule[] _subModules = 
         {
+            new LoansMain(),
             new ExitSubModule()
         };
 
@@ -18,6 +19,9 @@ namespace ModuleNetwork1
         public void Run()
         {
             int answ = Program.Menu("Choose an option", _subModules);
+            
+            Console.Clear();
+            _subModules[answ].Run();
         }
     }
 }
