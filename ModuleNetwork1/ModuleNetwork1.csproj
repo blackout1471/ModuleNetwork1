@@ -34,6 +34,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +48,7 @@
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="ExitSubModule.cs" />
     <Compile Include="IModule.cs" />
+    <Compile Include="LdapHelper.cs" />
     <Compile Include="LdapMain.cs" />
     <Compile Include="DbMain.cs" />
     <Compile Include="LoansMain.cs" />
