@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace ModuleNetwork1
 {
-    class LdapMain : IModule
+    class LoansMain : IModule
     {
-        public string progNam { get { return "Ldap"; } }
+        public string progNam { get {return "Loans Menu"; } }
 
         IModule[] _subModules =
         {
+            new ShowLoans(),
             new ExitSubModule()
         };
 
@@ -18,7 +20,6 @@ namespace ModuleNetwork1
         {
             StartMenu();
         }
-
         void StartMenu()
         {
             int answ = Program.Menu("Pick a option ", _subModules);

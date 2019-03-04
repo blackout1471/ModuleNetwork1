@@ -42,12 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseHelper.cs" />
     <Compile Include="ExitSubModule.cs" />
     <Compile Include="IModule.cs" />
     <Compile Include="LdapMain.cs" />
     <Compile Include="DbMain.cs" />
+    <Compile Include="LoansMain.cs" />
+    <Compile Include="Logic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowLoans.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
