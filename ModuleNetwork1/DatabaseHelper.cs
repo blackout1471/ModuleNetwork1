@@ -15,7 +15,7 @@ namespace ModuleNetwork1
         public static string ExecuteFunction(string functionName, string[] parameters)
         {
             StringBuilder cmd = new StringBuilder();
-            cmd.Append("EXEC " + functionName);
+            cmd.Append("EXEC " + functionName + " ");
             for (int i = 0; i < parameters.Length; i++)
             {
                 cmd.Append(parameters[i]);
