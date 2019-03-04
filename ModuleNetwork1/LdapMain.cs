@@ -11,6 +11,9 @@ namespace ModuleNetwork1
 
         IModule[] _subModules =
         {
+            new LSearchUser(),
+            new LShowGroups(),
+            new LShowUsers(),
             new ExitSubModule()
         };
 
@@ -21,7 +24,7 @@ namespace ModuleNetwork1
 
         void StartMenu()
         {
-            int answ = Program.Menu("Pick an option ", _subModules);
+            int answ = Program.Menu("Pick a option ", _subModules);
 
             Console.Clear();
             _subModules[answ].Run();
