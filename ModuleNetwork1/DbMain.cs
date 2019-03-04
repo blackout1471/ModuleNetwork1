@@ -17,7 +17,6 @@ namespace ModuleNetwork1
 
         public void Run()
         {
-            Console.WriteLine("Choice Sub Module");
             int answ = Program.Menu("Choose an option", _subModules);
         }
     }
