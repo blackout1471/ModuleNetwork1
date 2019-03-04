@@ -50,6 +50,9 @@
     <Compile Include="DbMain.cs" />
     <Compile Include="LoansMain.cs" />
     <Compile Include="Logic.cs" />
+    <Compile Include="LSearchUser.cs" />
+    <Compile Include="LShowGroups.cs" />
+    <Compile Include="LShowUsers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShowLoans.cs" />
